@@ -14,7 +14,7 @@ body {
     background: url(/images/BG.jpg);
     background-size: cover 100%;
     background-repeat: no-repeat;
-    background-position: ;
+    background-attachment: fixed;
 }
 :root {
     --black: rgb(51, 50, 50);
@@ -120,6 +120,63 @@ body {
 .blue {
     color: var(--blue);
 }
+/* scrollbar */
+/* *::-webkit-scrollbar {
+    width: 12px;
+}
+*::-webkit-scrollbar-track {
+    background: var(--black);
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 20px;
+    border: 3px solid orange;
+  }
+   */
 
+/* scrollbar */
 /* NAV */
 /* NAV + HEADER */
+
+
+@media (max-width: 500px) {
+    .nav-header {
+        width: 100%;
+        background: var(--black);
+        padding: 1em;
+    }
+    .header-cont {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo {
+        font-size: 1.2rem;
+    }
+    #bars {
+        position: absolute;
+        transform: translateX(-65%);
+    }
+}
+@media (width: 425px) {
+    #bars {
+        position: absolute;
+        transform: translateX(-20%);
+    }
+}
+@media (width: 375px) {
+    #bars {
+        position: absolute;
+        transform: translateX(-45%);
+    }
+}
+@media (max-width: 280px) {
+    .logo {
+        font-size: 1rem;
+    }
+    #bars {
+        position: absolute;
+        transform: translateX(-70%);
+    }
+}
