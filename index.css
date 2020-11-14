@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    text-rendering: optimizeLegibility;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+body {
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    background: url(/images/BG.jpg);
+    background-size: cover 100%;
+    background-repeat: no-repeat;
+    background-position: ;
+}
+:root {
+    --black: rgb(51, 50, 50);
+    --white: #fff;
+    --blue: rgb(19, 110, 230);
+    --mainTransition: all .2s linear;
+}
+/* NAV + HEADER */
+.nav-header {
+    width: 100%;
+    background: var(--black);
+    padding: 1em;
+}
+.header-cont {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+}
+.log-out {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+    background: var(--blue);
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+.fa-bars {
+    color: var(--white);
+    font-size: 1.5em;
+    margin-left: 5em;
+}
+.fa-bars:hover {
+    color: var(--blue);
+    cursor: pointer;
+    transition: var(--mainTransition);
+}
+/* NAV */
+.navbar {
+    height: 100vh;
+    background: var(--black);
+    width: 200px;
+    position: fixed;
+    padding: .1em;
+    line-height: 1.7;
+}
+.navbar.is-active {
+    width: 70px;
+}
+.navbar .nav-list {
+    list-style: none;
+    padding: 1em 0;
+}
+.navbar .nav-list li {
+    width: 100%;
+    padding: .5em 1.5em;
+    margin-top: 10px;
+}
+.navbar .nav-list li:hover {
+    background: var(--blue);
+    cursor: pointer;
+    transition: var(--mainTransition);
+    opacity: .85;
+}
+.navbar .nav-list li a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: bold;
+}
+#m-icons {
+    margin-right: 10px;
+    color: var(--white);
+    font-size: 1.2em;
+}
+
+.social-icons {
+    display: flex;
+    margin-top: 20px;
+    padding: 1em 3em .5em 0;
+}
+
+#social-icons {
+    font-size: 1.2em;
+    color: var(--white);
+    margin: 0 auto;
+    transition: var(--mainTransition);
+}
+#social-icons:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+.profile-image.rmv {
+    display: none;
+    transition: var(--mainTransition);
+}
+.blue {
+    color: var(--blue);
+}
+
+/* NAV */
+/* NAV + HEADER */
