@@ -159,7 +159,7 @@ body {
         transform: translateX(-65%);
     }
     .navbar:hover {
-        overflow: auto;
+        overflow: scroll;
         white-space: nowrap;
     }
 }
