@@ -159,7 +159,8 @@ body {
         transform: translateX(-65%);
     }
     .navbar:hover {
-        overflow-y: scroll;
+        overflow: auto;
+        white-space: nowrap;
     }
 }
 @media (width: 425px) {
