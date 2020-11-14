@@ -160,7 +160,6 @@ body {
     }
     .navbar:hover {
         overflow: scroll;
-        white-space: nowrap;
     }
 }
 @media (width: 425px) {
