@@ -180,3 +180,8 @@ body {
         transform: translateX(-70%);
     }
 }
+@media (max-width: 768px) {
+    body {
+        background-position: center;
+    }
+}
