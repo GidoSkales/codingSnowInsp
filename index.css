@@ -100,7 +100,8 @@ body {
 .social-icons {
     display: flex;
     margin-top: 20px;
-    padding: 1em 3em .5em 0;
+    padding: 1em 1em .5em 0;
+    height: 200px;
 }
 
 #social-icons {
@@ -157,9 +158,6 @@ body {
     #bars {
         position: absolute;
         transform: translateX(-65%);
-    }
-    .navbar:hover {
-        overflow: scroll;
     }
 }
 @media (width: 425px) {
