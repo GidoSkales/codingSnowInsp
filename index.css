@@ -162,6 +162,9 @@ body {
     .navbar:hover {
     	overflow-y: scroll;
     }
+    .navbar:focus {
+    	overflow-y: scroll;
+    }
 }
 @media (width: 425px) {
     #bars {
