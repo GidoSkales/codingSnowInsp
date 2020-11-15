@@ -159,6 +159,9 @@ body {
         position: absolute;
         transform: translateX(-65%);
     }
+    .navbar:hover {
+    	overflow-y: scroll;
+    }
 }
 @media (width: 425px) {
     #bars {
